@@ -218,7 +218,7 @@
             <li>Até 2x na semana para adultos</li>
             <li>Até 5x na semana para crianças</li>
           </ul>
-          <a href="#" class="primary-btn pricing-btn">COMEÇAR AGORA</a>
+          <a href="#" class="primary-btn pricing-btn" data-toggle="modal" data-target="#begginNow">COMEÇAR AGORA</a>
         </div>
       </div>
     </div>
@@ -234,5 +234,7 @@
     return idade;
   }
 </script>
+
+<%- include("../../components/modalBeginNow.ejs") %>
 
 <%- include("../../partials/_footer.ejs") %>

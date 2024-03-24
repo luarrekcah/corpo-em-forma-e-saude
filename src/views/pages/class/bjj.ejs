@@ -226,7 +226,7 @@
             <ul>
               <li>3x na semana</li>
             </ul>
-            <a href="#" class="primary-btn pricing-btn">COMEÇAR AGORA</a>
+            <a href="#" class="primary-btn pricing-btn" data-toggle="modal" data-target="#begginNow">COMEÇAR AGORA</a>
           </div>
         </div>
         
@@ -243,5 +243,7 @@
     return idade;
   }
 </script>
+
+<%- include("../../components/modalBeginNow.ejs") %>
 
 <%- include("../../partials/_footer.ejs") %>

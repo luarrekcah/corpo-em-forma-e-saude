@@ -10,7 +10,7 @@
             <div class="hi-text">
               <span>BEM-VINDO À CORPO EM FORMA E SAÚDE</span>
               <h1>Encontre seu <strong>estilo</strong> treino personalizado</h1>
-              <a href="#" class="primary-btn">TREINE HOJE</a>
+              <a href="#" class="primary-btn" data-toggle="modal" data-target="#begginNow">TREINE HOJE</a>
             </div>
           </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="hi-text">
               <span>TRANSFORME SEU CORPO</span>
               <h1>Seja <strong>forte</strong> treine seu corpo</h1>
-              <a href="#" class="primary-btn">TREINE HOJE</a>
+              <a href="#" class="primary-btn" data-toggle="modal" data-target="#begginNow">TREINE HOJE</a>
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@
         <div class="bs-text">
           <h2>comece agora mesmo o seu treinamento</h2>
           <div class="bt-tips">ONDE SAÚDE, BELEZA E FORÇA SE ENCONTRAM.</div>
-          <a href="#" class="primary-btn btn-normal">Quero Começar</a>
+          <a href="#" class="primary-btn btn-normal" data-toggle="modal" data-target="#begginNow">Quero Começar</a>
         </div>
       </div>
     </div>
@@ -239,7 +239,7 @@
             <li>Orientação e Suporte</li>
             <li>Todos os Equipamentos</li>
           </ul>
-          <a href="#" class="primary-btn pricing-btn">COMEÇAR AGORA</a>
+          <a href="#" class="primary-btn pricing-btn" data-toggle="modal" data-target="#begginNow">COMEÇAR AGORA</a>
         </div>
       </div>
       <div class="col-lg-4 col-md-8">
@@ -255,7 +255,7 @@
             <li>Orientação e Suporte</li>
             <li>Todos os Equipamentos</li>
           </ul>
-          <a href="#" class="primary-btn pricing-btn">COMEÇAR AGORA</a>
+          <a href="#" class="primary-btn pricing-btn" data-toggle="modal" data-target="#begginNow">COMEÇAR AGORA</a>
         </div>
       </div>
     </div>
@@ -277,7 +277,7 @@
 <!-- Gallery Section End -->
 
 <!-- Team Section Begin -->
-<section class="team-section spad">
+<!--<section class="team-section spad">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -287,7 +287,7 @@
             <h2>TRAINE COM EXPERTS</h2>
           </div>
           <a href="#" class="primary-btn btn-normal appoinment-btn"
-            >COMEÇAR AGORA</a
+             data-toggle="modal" data-target="#begginNow">COMEÇAR AGORA</a
           >
         </div>
       </div>
@@ -313,7 +313,10 @@
       </div>
     </div>
   </div>
-</section>
+</section>-->
 <!-- Team Section End -->
+
+
+<%- include("../../components/modalBeginNow.ejs") %>
 
 <%- include("../../partials/_footer.ejs") %>
