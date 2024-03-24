@@ -2,14 +2,20 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <title><%= headTitle %> - Academia Corpo Em Forma & Saúde</title>
     <meta
       name="description"
-      content="Sua academia completa, venha fazer um experimental hoje mesmo."
+      content="<%= headDesc %>"
     />
     <meta name="keywords" content="academia, acrelândia, corpo, forma, saúde" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Corpo Em Forma & Saúde - Academia</title>
+
+    <meta property="og:title" content="<%= headTitle %> - Academia Corpo Em Forma & Saúde" />
+    <meta property="og:description" content="<%= headDesc %>" />
+    <meta property="og:image" content="URL_DA_IMAGEM" />
+    <meta property="og:url" content="https://academia.corpoemforma.com" />
+    <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Google Font -->
     <link
@@ -43,9 +49,6 @@
     <div class="offcanvas-menu-wrapper">
       <div class="canvas-close">
         <i class="fa fa-close"></i>
-      </div>
-      <div class="canvas-search search-switch">
-        <i class="fa fa-search"></i>
       </div>
       <nav class="canvas-menu mobile-menu">
         <!--NAV-->
@@ -107,13 +110,17 @@
               <ul>
                 <li class="active"><a href="/#">Início</a></li>
                 <li>
-                  <a href="#">Artes Marciais</a>
+                  <a href="#">Classes</a>
                   <ul class="dropdown">
+                    <li><a href="/classes/bjj">Brazilian Jiu-Jitsu</a></li>
                     <li>
-                      <a href="/artes-marciais/bjj">Brazilian Jiu-Jitsu</a>
+                      <a href="/classes/karate">Karatê</a>
                     </li>
                     <li>
-                      <a href="/artes-marciais/karate">Karatê</a>
+                      <a href="/classes/danca">Dança</a>
+                    </li>
+                    <li>
+                      <a href="/classes/funcional">Funcional</a>
                     </li>
                   </ul>
                 </li>

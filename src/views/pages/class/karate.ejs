@@ -1,4 +1,6 @@
-<%- include("../../partials/_header.ejs") %>
+<%- include("../../partials/_header.ejs", {headTitle: "KARATÊ", headDesc: `O
+Karatê é uma arte marcial japonesa conhecida por sua ênfase na técnica,
+disciplina e desenvolvimento pessoal. INCREVA-SE agora mesmo!`}) %>
 
 <section class="breadcrumb-section set-bg" data-setbg="/img/breadcrumb-bg.jpg">
   <div class="container">
@@ -49,7 +51,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="cd-trainer-pic">
-             <!-- <img
+              <!-- <img
                 src="/img/classes/class-details/trainer-ze-do-bode.jpg"
                 alt=""
               />-->
@@ -177,12 +179,11 @@
                 </td>
 
                 <td class="blank-td"></td>
-             
+
                 <td class="hover-bg ts-meta" data-tsmeta="mesclados">
-                    <h5>KARATÊ</h5>
-                    <span>ADULTO/INFANTIL</span>
-                  </td>
-  
+                  <h5>KARATÊ</h5>
+                  <span>ADULTO/INFANTIL</span>
+                </td>
 
                 <td class="blank-td"></td>
                 <td class="blank-td"></td>
@@ -218,7 +219,13 @@
             <li>Até 2x na semana para adultos</li>
             <li>Até 5x na semana para crianças</li>
           </ul>
-          <a href="#" class="primary-btn pricing-btn" data-toggle="modal" data-target="#begginNow">COMEÇAR AGORA</a>
+          <a
+            href="#"
+            class="primary-btn pricing-btn"
+            data-toggle="modal"
+            data-target="#begginNow"
+            >COMEÇAR AGORA</a
+          >
         </div>
       </div>
     </div>
@@ -235,6 +242,5 @@
   }
 </script>
 
-<%- include("../../components/modalBeginNow.ejs") %>
-
-<%- include("../../partials/_footer.ejs") %>
+<%- include("../../components/modalBeginNow.ejs") %> <%-
+include("../../partials/_footer.ejs") %>
